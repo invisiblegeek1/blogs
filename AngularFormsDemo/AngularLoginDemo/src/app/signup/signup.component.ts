@@ -15,19 +15,19 @@ export class SignupComponent implements OnInit {
 
 
 
-  UserSignUpDetails={
+  UserSignUpDetails = {
 
 
-    name:"",
-    email:"",
-    password:""
+    name: "",
+    email: "",
+    password: ""
 
   }
 
-  writeForm(){
+  writeForm() {
     console.log(this.UserSignUpDetails);
-    
-    
+
+
   }
 
 }
