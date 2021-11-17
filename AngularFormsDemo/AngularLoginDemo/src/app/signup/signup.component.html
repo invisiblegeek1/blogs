@@ -1,0 +1,32 @@
+<div class="Sign-up-page-container">
+    
+    <div class="Greeting-quote-container">
+        Hello!
+    </div>
+
+
+
+    <form action="" class="Sign-up-form" #SignUpForm="ngForm">
+
+        <div class="User-details-input-container">
+
+            <input type="text" class="User-Name" placeholder="Name" name=name [(ngModel)]=UserSignUpDetails.name>
+            <input type="text" class="User-email-mobile" placeholder="Email or mobile" name=email [(ngModel)]=UserSignUpDetails.email>
+            <input type="text" class="User-password"  placeholder="Password" name=password [(ngModel)]=UserSignUpDetails.password>
+        </div>
+
+        <div class="User-action-btn-container">
+            <button class="Sign-Up-btn" (click)=writeForm()> Join now</button>
+
+            
+
+
+            
+
+        </div>
+
+      
+
+
+    </form>
+</div>
